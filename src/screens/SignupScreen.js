@@ -15,7 +15,7 @@ const SignupScreen = ({ navigation }) => {
       <Input
         label="Email"
         value={email}
-        onChangeText={setEmail} 
+        onChangeText={setEmail}
         autoCapitalize="none"
         autoCorrect={false}
       />
